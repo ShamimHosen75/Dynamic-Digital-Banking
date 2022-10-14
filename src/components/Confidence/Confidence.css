@@ -1,0 +1,7 @@
+.bg-banner {
+ background-image: url(https://i.ibb.co/QP3Q6f0/bg-digital.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+}

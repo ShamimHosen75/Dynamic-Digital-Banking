@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import ChoiceData from './components/ControlData/ChoiceData';
+import Commitment from './components/ControlData/Commitment';
+import ControlData from './components/ControlData/ControlData';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ControlData></ControlData>
+      <Commitment></Commitment>
+      <ChoiceData></ChoiceData>
     </div>
   );
 }
